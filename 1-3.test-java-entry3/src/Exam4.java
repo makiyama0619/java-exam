@@ -1,8 +1,9 @@
 public class Exam4 {
     public static void main(String[] args) {
-        printName ("牧山純");
+        String myName = getName();
+        System.out.println(myName);
     }
-    static void printName(String name){
-        System.out.println(name);
+    static String getName() {
+        return "牧山純";
 }
 }
