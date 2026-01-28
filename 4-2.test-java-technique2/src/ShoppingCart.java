@@ -12,12 +12,8 @@ public class ShoppingCart extends LinkedList<Item>{
 			totalPrice += item.getPrice();
 		}
 		return totalPrice;
-
-    public int getAveragePrice(){
-        if (this.isEmpty()) {
-            return 0;
-        }
-        return getTotalPrice() / this.size();
-    }
 }
+    public int getAveragePrice(){
+       return getTotalPrice() / this.size();
+    }
 }
