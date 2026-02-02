@@ -27,7 +27,12 @@ public class Exam3{
 
 			// (2)SQL文を作成
             //ON test_members.dep_id = test_deps.id
-            sql = "SELECT id,name,age FROM test_members;";
+            sql = "SELECT a.id, a.neme, a.age, b.name AS dep_name FROM test_members AS a INNER JOIN test_departmet AS b ON a.dep_id = b.id";
+			//構文・SELECT カラム名 FROM テーブルA　INNER JOIN テーブルB ON テーブルA.結合するカラム名　= テーブルB.結合するカラム名
+			//SELECT ~ FROM test_members AS a INNER JOIN test_departmet AS b ON a.dep_id = b.id
+			//SELECT a.id a.neme a.age b.name AS dep_name(別名をつけて、get×××メソッドで別名を指定できるようにする)FROM test_members AS a INNER JOIN test_departmet AS b ON a.dep_id = b.id
+			//※ONは二つのテーブルの結合部にあたるカラムを指定する
+			//二つのカラムの値が同じレコード同士が結合される 
 
 			// (3)SQL実行準備
 			pstmt = con.prepareStatement(sql);
@@ -39,10 +44,10 @@ public class Exam3{
 			// (5)結果の操作
 			// ※ここに結果の操作処理を書く
             while(rs.next()){
-                int id = rs.getInt("id");
-				String name = rs.getString("name");
-                int age = rs.getInt("age");
-				System.out.println("id="+id+", name="+name+" age="+age);
+				//int id = rs.getInt("id");a.id=test_members.id;
+				//String name = rs.getString("name");a.name = test_members.name;
+                //int age = rs.getInt("age");a.age = test_members.age;
+				//dep_name = rs.getString("dep_name"); dep_name = b.name = test_department.name;
 			}
 
 		} catch (SQLException ex) {

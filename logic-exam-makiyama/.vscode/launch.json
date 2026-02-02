@@ -1,0 +1,61 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ex6",
+            "request": "launch",
+            "mainClass": "Ex6",
+            "projectName": "logic-exam-makiyama_865b0392"
+        },
+        {
+            "type": "java",
+            "name": "Ex1",
+            "request": "launch",
+            "mainClass": "Ex1",
+            "projectName": "logic-exam-makiyama_865b0392"
+        },
+        {
+            "type": "java",
+            "name": "Ex5",
+            "request": "launch",
+            "mainClass": "Ex5",
+            "projectName": "logic-exam-makiyama_865b0392"
+        },
+        {
+            "type": "java",
+            "name": "Ex3",
+            "request": "launch",
+            "mainClass": "Ex3",
+            "projectName": "logic-exam-makiyama_865b0392",
+            "args": [
+                "2000"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Ex4",
+            "request": "launch",
+            "mainClass": "Ex4",
+            "projectName": "logic-exam-makiyama_865b0392",
+            "args": [
+                "2000"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Ex2",
+            "request": "launch",
+            "mainClass": "Ex2",
+            "projectName": "logic-exam-makiyama_865b0392",
+            "args": [
+                "11",
+                "59",
+                "59"
+            ]
+        }
+    ]
+}

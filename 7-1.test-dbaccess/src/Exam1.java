@@ -23,6 +23,8 @@ public class Exam1 {
         sql.append("insert into test_members (name, age, dep_id) values ('佐藤花子','33',2);");
         sql.append("insert into test_members (name, age, dep_id) values ('遠藤次郎','55',2);");
 
+		//INSERT INTO test_members(name, age, dep_id) VALUES('遠藤次郎',55,2);
+
 		try {
 			// (1)データベースに接続
 			con = DriverManager.getConnection(url, user, password);
