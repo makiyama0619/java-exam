@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+header{
+    width: 360px;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+}
+.menu{
+    width: 50px;
+    height: 200px;
+    background-color: gainsboro;
+    padding: 10px;
+    text-align: center;
+}
+.maincontent{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+.cm{
+    width: 50px;
+    height: 200px;
+    background-color: gainsboro;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    width: 360px;
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+}
+.main {
+display: flex;
+}
