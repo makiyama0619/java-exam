@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TestSpringScopeMakiyamaApplication<test-spring-scope-makiyama>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.test_spring_scope_makiyama.TestSpringScopeMakiyamaApplication",
+            "projectName": "test-spring-scope-makiyama",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
